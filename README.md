@@ -1,3 +1,3 @@
 # Go Experiments
 
-Hacking around Golang
+Hacking around Golang and examples in no particular order
