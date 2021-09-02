@@ -11,7 +11,7 @@ import (
 
 func main() {
 	router := httprouter.New()
-	router.GET("/api/v1/kernal-version", kernelVer)
+	router.GET("/api/v1/kernel-version", kernelVer)
 	log.Fatal(http.ListenAndServe(":8080", router))
 }
 
